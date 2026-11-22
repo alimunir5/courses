@@ -1,7 +1,7 @@
 // Service worker de Courses : précache l'application et la sert depuis le cache (hors ligne).
 // Changer VERSION à chaque modification d'un fichier listé pour que les téléphones se mettent à jour.
 
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.0.1';
 const CACHE = `courses-${VERSION}`;
 
 const ASSETS = [

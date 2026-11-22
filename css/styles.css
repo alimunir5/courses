@@ -1,11 +1,11 @@
 :root {
-  --bg: #000;
+  --bg: #0a0a0a;
   --surface: #131313;
   --surface-2: #1d1d1d;
   --line: #2a2a2a;
   --text: #f4efe2;
   --muted: #9b9484;
-  --accent: #d4af37;
+  --accent: #dcb458;
   --on-accent: #0a0a0a;
   --ok: #8fd19e;
   --danger: #ff8a7a;
@@ -51,7 +51,7 @@ button:disabled { opacity: .4; cursor: default; }
   position: sticky; top: 0; z-index: 5;
   margin: 0 -16px 8px;
   padding: calc(var(--safe-top) + 8px) 16px 10px;
-  background: rgb(0 0 0 / .92);
+  background: rgb(10 10 10 / .92);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);

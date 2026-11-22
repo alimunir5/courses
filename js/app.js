@@ -18,7 +18,7 @@ let draftGroup = state.lastGroup;
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
-const LOGO = '<svg viewBox="0 0 1200 1200" aria-hidden="true"><rect width="1200" height="1200" fill="#000"/><path d="M420 480H500L560 690H720L770 530H525" fill="none" stroke="#D4AF37" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/><g fill="#D4AF37"><circle cx="590" cy="770" r="40"/><circle cx="700" cy="770" r="40"/></g></svg>';
+const LOGO = '<svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="128" x2="0" y2="384"><stop offset="0" stop-color="#F2D58E"/><stop offset="1" stop-color="#B8893C"/></linearGradient></defs><rect width="512" height="512" fill="#0A0A0A"/><g fill="none" stroke="url(#g)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 -4)"><path d="M128 158H162L198 300H338L364 196H174"/><circle cx="216" cy="350" r="7"/><circle cx="322" cy="350" r="7"/></g></svg>';
 
 function commit(next) {
   state = next;

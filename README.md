@@ -28,9 +28,9 @@ Aucune dépendance, aucun build (JavaScript en modules ES), même structure que 
 ```bash
 npm test          # tests unitaires (node --test) sur js/core.js
 npm run serve     # serveur local sur http://localhost:4173
-npm run icons     # régénère les PNG depuis icons/icon.svg (sharp emprunté à ../muscu)
 ```
 
 - `js/core.js` : catalogue, état, persistance, import / export (testé dans `tests/`). `js/app.js` : interface.
+- Icônes : fournies par `_design/icons/courses/` (caddie or sur fond noir), copiées dans `icons/`.
 - `sw.js` : cache hors ligne — **incrémenter `VERSION`** à chaque modification.
 - Déploiement : chaque push sur `main` lance les tests puis publie sur GitHub Pages (`.github/workflows/pages.yml`).
