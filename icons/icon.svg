@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <!-- Icône provisoire : caddie or sur fond noir (remplacée par l'icône de hub-apps-da). -->
+  <rect width="1200" height="1200" fill="#000000"/>
+  <g fill="none" stroke="#D4AF37" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M420 480H500L560 690H720L770 530H525"/>
+  </g>
+  <g fill="#D4AF37"><circle cx="590" cy="770" r="40"/><circle cx="700" cy="770" r="40"/></g>
+</svg>

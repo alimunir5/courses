@@ -1,0 +1,12 @@
+{
+  "name": "courses",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Liste de courses du programme de prise de masse (PWA hors ligne)",
+  "scripts": {
+    "test": "node --test",
+    "serve": "npx --yes serve -l 4173 .",
+    "icons": "node scripts/icons.mjs"
+  }
+}
